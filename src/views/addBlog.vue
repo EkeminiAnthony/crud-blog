@@ -47,6 +47,7 @@
 
 <script>
  import axios from 'axios'
+ import sweetalert from 'sweetalert'
   export default {
     data() {
       return {
@@ -68,6 +69,13 @@
         }).catch(function(error){
           console.log(error)
         })
+        swal("", "Post Has been added!", "success");
+        this.userData = { 
+            title: '',
+            categories: "",
+            addContent: '',
+            author: '',
+          }
         }
 
       }
