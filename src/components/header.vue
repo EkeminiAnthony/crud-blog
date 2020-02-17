@@ -12,7 +12,7 @@
                 <router-link to="/home">Home</router-link>
                 </li> -->
                 <li>
-                <router-link to="/blog">Blog</router-link>
+                <router-link to="/">Blog</router-link>
                 </li>
                 <li>
                 <router-link to="/addBlog">Add Blog</router-link>

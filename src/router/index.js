@@ -14,7 +14,7 @@ const routes = [
     component: addBlog
   },
   {
-    path: '/blog',
+    path: '/',
     name: 'blog',
     component: blog
   },
